@@ -65,7 +65,7 @@ function switchPlayers(playerNum){
 	document.getElementById('player_img').alt = players[playerNum].alt;
 	document.getElementById('p_yards').textContent = players[playerNum].pass_yards;
 	document.getElementById('r_yards').textContent = players[playerNum].rushing_yards;
-	document.getElementById('rec_yards').textContent = players[playerNum].rushing_yards;
+	document.getElementById('rec_yards').textContent = players[playerNum].receiving_yards;
 	document.getElementById('avg_p_yards').textContent = Math.round(players[playerNum].pass_yards / players[playerNum].games_played);
 	document.getElementById('avg_r_yards').textContent = Math.round(players[playerNum].rushing_yards / players[playerNum].games_played);
 	document.getElementById('avg_rec_yards').textContent = Math.round(players[playerNum].receiving_yards / players[playerNum].games_played);
